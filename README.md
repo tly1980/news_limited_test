@@ -1,9 +1,16 @@
 Code Test for News Limited
+
 If you want to change the code repository, please change Makefile.
 
-Make commits.json - fetch data
-Make clean - clean the data
-Make run - start the webserver on http://localhost:8000/
+1. firstly install all the python package using
+```
+pip install -r requirements.txt
+```
 
-Please browse http://localhost:8000/commit_list
+2. execute the application
+```
+make clean all
+```
+
+3. Please browse http://localhost:8000/commit_list
 
